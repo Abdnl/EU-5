@@ -6,6 +6,7 @@ public class Q16 {
 		
 		String str = "Cybertek Students";
         int x = str.indexOf("t", 8);
+        
         System.out.println(str.substring(3, x));
         System.out.println(x);
 

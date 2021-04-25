@@ -4,8 +4,12 @@ public class Q14 {
 
 	public static void main(String[] args) {
 		
-		int x1 = getload("");
+		int x1 = getload();
         int d = getload(x1, "Cybertek");
+        
+        System.out.println(x1);
+        System.out.println(d);
+        
         System.out.println(x1 + d);
     }
 

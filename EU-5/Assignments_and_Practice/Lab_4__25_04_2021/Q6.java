@@ -8,7 +8,7 @@ public class Q6 {
 		s.toUpperCase();
 		s.trim();
 		s.substring(1, 3);
-		s = s + "two";
+		s = s + " two";
 		System.out.println(s.length());
 
 	}

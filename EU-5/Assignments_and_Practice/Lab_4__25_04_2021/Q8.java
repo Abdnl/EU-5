@@ -5,7 +5,7 @@ public class Q8 {
 	public static void main(String[] args) {
 
 		String b = "rumble";
-        b = b + b.concat("4").substring(3, b.length() - 1);
+        b += b.concat("4").substring(3, b.length() - 1);
         System.out.println(b);
 
 	}

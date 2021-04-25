@@ -14,6 +14,6 @@ public class Q13 {
 		msg.replace("X", x);
 		String rest = " and larger than 0";
 		msg.concat(rest);
-		return x;
+		return msg;
 	}
 }
