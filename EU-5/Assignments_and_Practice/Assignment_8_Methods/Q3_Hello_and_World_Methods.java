@@ -1,6 +1,6 @@
 package Assignment_8_Methods;
 
-public class Q3 {
+public class Q3_Hello_and_World_Methods {
 
 	public static void main(String[] args) {
 
@@ -18,8 +18,7 @@ public class Q3 {
 	public static void world() {
 
 		System.out.println("World!");
-		
-				
+
 	}
 
 }

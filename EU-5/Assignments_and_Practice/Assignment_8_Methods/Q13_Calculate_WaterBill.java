@@ -1,0 +1,42 @@
+package Assignment_8_Methods;
+
+import java.util.Scanner;
+
+public class Q13_Calculate_WaterBill {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Create a method which calculates a water bill, the method gets a double and
+		 * returns a double. The more water you use the more it will cost you (as a fine
+		 * for wasting water).
+		 */
+
+		double totalBill = calculateBill(0);
+		System.out.println("Your water bill is : " + totalBill);
+
+	}
+
+	public static double calculateBill(double bill) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter usage value: ");
+		double units = sc.nextDouble();
+		sc.close();
+
+		if (units > 0 && units <= 50) {
+			bill = units * 0.60;
+		} else if (units > 50 && units <= 100) {
+			bill = units * 0.90;
+		} else if (units > 100 && units <= 150) {
+			bill = units * 0.90 + 50;
+		} else if (units > 150) {
+			bill = units * 0.90 + 100;
+		} else {
+			System.out.println("Invalid entry");
+		}
+		return bill;
+
+	}
+
+}

@@ -2,7 +2,7 @@ package Assignment_8_Methods;
 
 import java.util.Scanner;
 
-public class Q1 {
+public class Q1_PlusMethod {
 
 	public static void main(String[] args) {
 		

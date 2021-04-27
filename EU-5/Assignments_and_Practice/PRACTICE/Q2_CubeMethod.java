@@ -1,8 +1,8 @@
-package Assignment_8_Methods;
+package PRACTICE;
 
 import java.util.Scanner;
 
-public class Q2 {
+public class Q2_CubeMethod {
 
 	public static void main(String[] args) {
 
