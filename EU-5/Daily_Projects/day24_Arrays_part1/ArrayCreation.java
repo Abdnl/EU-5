@@ -12,7 +12,7 @@ public class ArrayCreation {
 		// ......
 		// ......
 		int score100 = 90;
-
+		
 		int avgScore = (score1 + score2 + score3 + score4 + score5) / 5;
 		System.out.println(avgScore);
 		
