@@ -1,10 +1,12 @@
 package LiveReviewWithMuhtar9_22_05_2021;
 
 public class Notes {
-	
-	
-	/*05/22/2021
-	Review Topics: Constructor Calls (Chaining rules)
+
+	/*
+	 05/22/2021
+	Review Topics:
+
+	Constructor Calls (Chaining rules)
 				   OOP Encapsulation
 
 
@@ -73,6 +75,26 @@ public class Notes {
 
 						setter(Modify ONLY): public instance method
 											 return type is void
-											 1 parameter (data type matches with private data)*/
+											 1 parameter (data type matches with private data)
 
+
+	Encapsulation Task:
+		1. cretae a class named Circle:
+					instance variable:
+							private radious;
+
+					generate getter & setters for radius
+
+					instance methods:
+						getter
+						setter
+						getArea
+						getPerimeter
+						toString
+
+					generate a constructor that can set the radius when the object of circle is created
+
+			Requirments:
+					radius of the circle cannot be zero or negative*/
+	
 }
