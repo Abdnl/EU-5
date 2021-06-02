@@ -2,12 +2,14 @@ package day33_classObject_constructors;
 
 public class Car {
 
+	//Instance variables
 	String model;
 	String make;
 	int year;
 	double mile;
 	String color;
 
+	//creating constructir
 	public Car() {
 
 		make = "BMW";
