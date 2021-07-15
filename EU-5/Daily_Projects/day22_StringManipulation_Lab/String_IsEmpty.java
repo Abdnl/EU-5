@@ -1,4 +1,4 @@
-package Day22_StringManipulation_Lab;
+package day22_StringManipulation_Lab;
 
 public class String_IsEmpty {
 
